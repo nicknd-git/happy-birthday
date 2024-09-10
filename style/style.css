@@ -5,6 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-color: #efdbfa;
 }
 
 .container {
@@ -60,7 +61,7 @@ body {
 .four .text-box {
   width: 600px;
   margin: 0 auto;
-  border: 3px solid #aaa;
+  border: 3px solid #db9de7;
   border-radius: 5px;
   padding: 10px;
   position: relative;
@@ -80,7 +81,7 @@ body {
   right: 5px;
   bottom: 5px;
   color: #fff;
-  background-color: rgb(21, 161, 237);
+  background-color: rgb(147, 9, 175);
   padding: 5px 8px;
   border-radius: 3px;
 }
@@ -109,7 +110,7 @@ body {
 }
 
 .idea-6 span {
-  font-size: 15rem;
+  font-size: 5rem;
 }
 
 .six {
@@ -118,7 +119,7 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -126,25 +127,26 @@ body {
   position: absolute;
   width: 80px;
   top: -35px;
-  left: 41.5%;
+  left: 40%;
   /* transform: scale(0.1); */
 }
 
 .baloons img {
   display: inline-block;
   position: absolute;
+  max-width: 20%;
 }
 
 .baloons img:nth-child(even) {
-  left: -10%;
+  left: 10%;
 }
 
 .baloons img:nth-child(odd) {
-  right: -10%;
+  right: 10%;
 }
 
 .baloons img:nth-child(3n + 0) {
-  left: 30%;
+  left: 40%;
 }
 
 .eight svg {
